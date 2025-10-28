@@ -28,18 +28,18 @@ class _IntroScreenState extends State<IntroScreen> {
 
   final List<Map<String, String>> _pages = [
     {
-      'title': 'Welcome to App',
-      'subtitle': 'Learn how to use the app step by step.',
+      'title': 'Bem-vindo ao App',
+      'subtitle': 'Aprenda a usar o aplicativo passo a passo.',
       'lottie': '../../../assets/lottie/shield.json',
     },
     {
-      'title': 'Features',
-      'subtitle': 'Explore various features available.',
+      'title': 'Recursos',
+      'subtitle': 'Explore os vários recursos disponíveis.',
       'lottie': '../../../assets/lottie/lock.json',
     },
     {
-      'title': 'Let\'s Get Started?',
-      'subtitle': 'Ready to use your app securely.',
+      'title': 'Vamos Começar?',
+      'subtitle': 'Pronto para usar seu aplicativo com segurança.',
       'lottie': '../../../assets/lottie/password.json',
     },
   ];
@@ -130,7 +130,7 @@ class _IntroScreenState extends State<IntroScreen> {
                       },
                     ),
                     const Expanded(
-                      child: Text('Don\'t show this introduction again.'),
+                      child: Text('Não mostrar esta introdução novamente.'),
                     ),
                   ],
                 ),
@@ -147,7 +147,7 @@ class _IntroScreenState extends State<IntroScreen> {
                     TextButton(
                       onPressed: _onBack,
                       child: const Text(
-                        'Back',
+                        'Voltar',
                         style: TextStyle(color: Colors.blue),
                       ),
                     )
@@ -156,7 +156,7 @@ class _IntroScreenState extends State<IntroScreen> {
                   TextButton(
                     onPressed: _onNext,
                     child: Text(
-                      isLastPage ? 'Finish' : 'Next',
+                      isLastPage ? 'Finalizar' : 'Próximo',
                       style: const TextStyle(color: Colors.blue),
                     ),
                   ),
