@@ -4,7 +4,7 @@ O Gerapass é um aplicativo gerenciador de senhas construído em Flutter. Ele pe
 <img width="553" height="920" alt="image" src="https://github.com/user-attachments/assets/13a1943e-5840-4ca2-9211-26cbccca0beb" /> <img width="545" height="915" alt="image" src="https://github.com/user-attachments/assets/870f14c7-5070-4452-a217-c41e4e6989d3" />
 
 
-## ✨ Funcionalidades Principais
+## Funcionalidades Principais
 
 ### 1. Gerador de Senhas
 [cite_start]O aplicativo possui uma tela dedicada para a criação de novas senhas[cite: 126], onde o usuário pode:
@@ -34,7 +34,7 @@ O aplicativo oferece uma experiência de usuário polida e personalizável:
     * [cite_start]Escolher uma cor primária diferente para o tema[cite: 161, 163, 164].
     * [cite_start]Ajustar o tamanho do texto do aplicativo para melhor acessibilidade[cite: 168].
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 * **Flutter:** Framework principal para a construção da UI.
 * **Firebase:**
@@ -48,7 +48,7 @@ O aplicativo oferece uma experiência de usuário polida e personalizável:
     * [cite_start]**lottie:** Para exibir animações vetoriais fluidas (ex: na tela de splash [cite: 179][cite_start], introdução [cite: 76] [cite_start]e cofre vazio [cite: 47]).
     * [cite_start]**firebase_core:** Para inicializar o Firebase no app[cite: 9].
 
-## 📂 Estrutura do Projeto (Visão Geral)
+## Estrutura do Projeto (Visão Geral)
 
 * `main.dart`: Ponto de entrada do aplicativo. [cite_start]Inicializa o Firebase [cite: 9] [cite_start]e o `ThemeProvider`[cite: 10].
 * [cite_start]`routes.dart`: Gerencia a navegação e as rotas nomeadas do app[cite: 16, 18].
